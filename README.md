@@ -256,6 +256,17 @@ Use Azure CLI locally or in Codespaces/Dev Containers to list provider API versi
 az provider show --namespace Microsoft.Web --query "resourceTypes[?resourceType=='sites'].apiVersions" -o tsv
 ```
 
+### 4.4 Cleaning-up
+
+To remove all resources at once, including the resource groups, and purge any soft-deleted service, just run:
+
+```shell
+azd down --purge
+```
+
+> [!NOTE]
+> Azd will scan and list all the resource(s) to be deleted and their respective groups, within the current environment, asking for a confirmation before proceeding. Keep the terminal open during the process until it's done.
+
 ## 5. Guidance
 
 ### 5.1 Region Availability
