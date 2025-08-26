@@ -151,17 +151,19 @@ Steps:
     azd up
     ```
     
-    Alternative deployment method:
-    - For infra provisioning without code deployment, use `azd provision`
-    - For code deployment without infra provisioning, use `azd deploy`
-
     This will:
-    - Prompt you for environment name and Azure region
-    - Create all Azure resources (estimated time: 10-15 minutes)
-    - Deploy all three applications (web app, function app, logic app)
-    - Configure API Management with proper backends
+    - Prompt for environment name (if not initialised yet)
+    - Prompt for Azure subscription and region (if not selected yet)
+    - Provision all Azure resources
+    - Deploy all three applications source code (web, function and logic app)
+    - Configure API Management endpoints and backends
 
-5. Configure a the GitHub CI/CD pipeline (optional, when using your own repository):
+    > [!NOTE]
+    > Alternative deployment methods:
+    > - For infra provisioning only, use `azd provision`
+    > - For code deployment only, use `azd deploy`
+
+5. Configure GitHub CI/CD pipeline (optional, when using your own repository):
 
     ```shell
     azd pipeline config
