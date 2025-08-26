@@ -158,10 +158,10 @@ Steps:
     - Deploy all three applications source code (web, function and logic app)
     - Configure API Management endpoints and backends
 
-    > [!NOTE]
-    > Alternative deployment methods:
-    > - For infra provisioning only, use `azd provision`
-    > - For code deployment only, use `azd deploy`
+> [!NOTE]
+> Alternative deployment methods:
+> - For infra provisioning only, use `azd provision`
+> - For code deployment only, use `azd deploy`
 
 5. Configure GitHub CI/CD pipeline (optional, when using your own repository):
 
