@@ -29,7 +29,7 @@
             "onAutoForward": "notify"
         }
     },
-    "remoteUser": "root",
+    "remoteUser": "vscode",
     "hostRequirements": {
         "memory": "4gb"
     }
