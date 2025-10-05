@@ -1,6 +1,6 @@
 # Azure Apps & Integration Sandbox
 
-[![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=lightgrey&logo=github)](https://codespaces.new/ffilardi-insight/azure-aisa-public) [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/ffilardi-insight/azure-aisa-public)
+[![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=lightgrey&logo=github)](https://codespaces.new/ffilardi-insight/azure-apps-integration-sandbox) [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/ffilardi-insight/azure-apps-integration-sandbox)
 
 [Features](#2-features) • [Getting Started](#3-getting-started) • [Quickstart](#4-quickstart) • [Guidance](#5-guidance)
 
@@ -87,7 +87,7 @@ Prerequisites:
 - GitHub account.
 
 Steps:
-1. Open the repository in [GitHub Codespaces](https://codespaces.new/ffilardi-insight/azure-aisa-public)
+1. Open the repository in [GitHub Codespaces](https://codespaces.new/ffilardi-insight/azure-apps-integration-sandbox)
 2. Configure the settings and create the Codespace (this may take several minutes)
 
 ### 3.2 VS Code Dev Containers
@@ -99,7 +99,7 @@ Prerequisites:
 
 Steps:
 1. Start Docker Desktop
-2. Open the project in a [VS Code Dev Container](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/ffilardi-insight/azure-aisa-public) (this may take several minutes)
+2. Open the project in a [VS Code Dev Container](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/ffilardi-insight/azure-apps-integration-sandbox) (this may take several minutes)
 
 ### 3.3 Local Environment
 
